@@ -28,3 +28,6 @@ build_flags = -DUSB_KEYBOARDONLY -DLAYOUT_GERMAN
 ; -DUSB_SERIAL_HID
 ; -D USB_KEYBOARDONLY
 ```
+## serial monitor
+### via command line
+pio device monitor -f log2file -f time -f default -p COM68 -b 230400
